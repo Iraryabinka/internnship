@@ -1,0 +1,31 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Welcome to {{ title }}!
+  </h1>
+<div class="container_component">
+<ul class="data_list_component">DATA:
+
+  <ul *ngFor = "let name of datas">
+      {{parent.name}}
+     <li *ngFor = "let children of parent.children">{{children.name}}</li>
+  </ul>
+
+<ul>Parent 2
+    <li>Child 3</li>
+    <li>Child 4</li>
+  </ul>
+<ul>Parent 3
+    <li>Child 5</li>
+    <li>Child 6</li>
+    </ul>
+</ul>
+<ul class="active_list_component">ACTIVE:</ul>
+</div>
+  <div id="mapid">map</div>
+
+  <p>Thank you to visit my map;)</p>
+
+</div>
+
+

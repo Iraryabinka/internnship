@@ -1,0 +1,22 @@
+h1 {
+  color: #369;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 250%;
+}
+
+#mapid {
+  display: inline-block;
+  height: 400px;
+  width: 900px;
+
+}
+.data_list_component {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.container_component {
+  display: flex;
+  justify-content: center;
+}
